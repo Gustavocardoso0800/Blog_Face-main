@@ -1,6 +1,6 @@
 :root {
     --cor-secundaria: #13121270;
-  }
+}
 
 .bg-sobre {
     display: flex;
@@ -15,9 +15,10 @@
 }
 
 
-.bg-sobre img{
+.bg-sobre img {
     width: 30rem;
-    max-width: 1000px;
+    max-width: 100%;
+    height: auto;
 }
 
 .roxo {
@@ -38,6 +39,3 @@
     text-shadow: 0px 0px 0.1em #d61616;
 }
 
-img {
-    width: 100%;
-}
