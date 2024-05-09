@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icons-and-logo/img01.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/integrantes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        
     <title>Projeto Face</title>
 </head>
 
@@ -18,17 +20,17 @@
     <header>
         <div class="limit">
             <div class="logo">
-                <a href="#">
+                <a href="#" class="offHover">
                     <img src="img/icons-and-logo/img00.png" alt="Logo_Projeto">
                 </a>
             </div>
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">Início</a></li>
+                    <li><a href="#">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#objetivos">Objetivos</a></li>
-                    <li><a href="pages/eventos.html" target="_blank">Eventos</a></li>
+                    <li><a href="pages/eventos.html">Eventos</a></li>
                     <li><a href="#">Galeria</a></li>
                 </ul>
             </nav>
@@ -134,59 +136,139 @@
 
     <section class="bg">
         
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/cultura.png" alt="">
             <h2>Valorização da Cultura</h2>
             <p>Promover e preservar a rica cultura marajoara através da arte.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/cortina.png" alt="">
             <h2>Desenvolvimento de Talentos</h2>
             <p>Oferecer oportunidades para que os jovens explorem e desenvolvam seus talentos artísticos.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/inclusao.png" alt="">
             <h2>Inclusão Social</h2>
             <p>Criar um ambiente inclusivo e acessível para todos os jovens, independentemente de sua situação
                 econômica.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/03.png" alt="">
             <h2>Educação Artística</h2>
             <p>Utilizar a arte como ferramenta educacional para ensinar habilidades valiosas e promover o aprendizado.
             </p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/empoderamento.png" alt="">
             <h2>Empoderamento Juvenil</h2>
             <p>Dar voz aos jovens e empoderá-los para que se expressem de forma criativa e construtiva.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/comunidade.png" alt="">
             <h2>Engajamento Comunitário</h2>
             <p>Incentivar a participação ativa da comunidade nas atividades do projeto.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/continuidade.png" alt="">
             <h2>Sustentabilidade</h2>
             <p>Assegurar a continuidade do projeto por meio de parcerias e apoio comunitário</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/crescimento.png" alt="">
             <h2>Expansão e Crescimento</h2>
             <p>Alcançar mais jovens e introduzir novas formas de expressão artística.</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/qualidade.png" alt="">
             <h2>Qualidade e Excelência</h2>
             <p>Manter um alto padrão de qualidade em todas as atividades e produções</p>
         </div>
-        <div class="container">
+        <div class="container-sem-bootstrap">
             <img src="img/icons-and-logo/aprovacao.png" alt="">
             <h2>Impacto Positivo</h2>
             <p>Gerar um impacto positivo duradouro na vida dos jovens e na comunidade.</p>
         </div>
     </section>
+
+
+    <div class="container desativar">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 1</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="../img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 2</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="../img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 3</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="../img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 4</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="../img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 5</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="single-box">
+                                        <div class="img-area"> <img src="../img/images/02.jpeg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>Pessoa 6</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident aspernatur sed itaque beatae commodi distinctio, debitis, autem quisquam id laudantium nam nostrum temporibus incidunt, maiores ipsum dolor similique harum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <section class="email limit" id="contato">
         <div class="form">
@@ -203,7 +285,6 @@
         </div>
     </section>
 
-
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.0848374506263!2d-50.477033224139355!3d-1.689026936200749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x929839aa2ec65d45%3A0x3a9d5b8917c3d00!2sEscola%20Margarida%20Nemer!5e0!3m2!1spt-BR!2sbr!4v1714674700162!5m2!1spt-BR!2sbr"
         width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -211,7 +292,9 @@
     <footer>
         <p>©2024 Projeto FACE. Todos os direitos reservados.</p>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

@@ -90,8 +90,12 @@ header a:hover {
     color: var(--cor-primaria);
     transform: scale(1.10);
     transition: .2s;
-
 }
+
+.offHover:hover {
+    transform: none;
+}
+
 .btn-contact button:hover {
     box-shadow: 0px 0px 100px #b01c3aa8;
     transform: scale(1);
@@ -229,7 +233,7 @@ footer {
     font-weight: bold;
 }
 
-.container {
+.container-sem-bootstrap {
     flex-wrap: wrap;
     padding: 0.5em;
     margin: 0.5em;
@@ -240,12 +244,12 @@ footer {
     
 }
 
-.container:hover {
+.container-sem-bootstrap:hover {
     transform: scale(1.1);
     transition: .8s;
 }
 
-.container img {
+.container-sem-bootstrap img {
     margin: auto;
 }
 
@@ -288,6 +292,8 @@ footer {
 }
 
 @media screen and (max-width: 829px){
+   
+
     .logo {
         margin: 1em;
         width: 15%;
@@ -360,10 +366,12 @@ footer {
         
     }
 
-    .container {
+    .container-sem-bootstrap {
         width: 100%;
     }
 }
+
+
 
 
 
